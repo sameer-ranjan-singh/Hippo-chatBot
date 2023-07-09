@@ -9,13 +9,43 @@
 }
 
 body {
-  background: #343541;
+  background: #010211;
+  margin-bottom: 10px;
+  
 }
+
+.HippoCampus{
+  padding: 10px;
+  margin:0px;
+  justify-content: end;
+  text-align: end;
+  
+}
+.a-hippo{
+  text-decoration: none;
+  color: #f1faee;
+}
+.a-hippo{
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #1a1e4b;
+  background: #e9edc9;
   
   /* 394134   1a1e4b*/
   display: flex;
@@ -52,7 +82,7 @@ body {
 }
 
 .ai {
-  background: #222768;
+  background: #fefae0;
   /* 222768 */
 }
 
@@ -72,7 +102,7 @@ body {
   height: 36px;
   border-radius: 5px;
 
-  background: #140846;
+  background: #606c38;
 
   display: flex;
   justify-content: center;
@@ -80,7 +110,7 @@ body {
 }
 
 .ai .profile {
-  background: #2b2929;
+  background: #ccd5ae;
 }
 
 .profile img {
@@ -92,7 +122,7 @@ body {
 .message {
   flex: 1;
 
-  color: #ccd4f7;
+  color: #212529;
   font-size: 20px;
 
   max-width: 100%;
@@ -131,7 +161,7 @@ textarea {
   width: 100%;
   color: #fff;
   font-size: 18px;
-
+  resize: none;
   padding: 10px;
   background: transparent;
   border-radius: 5px;
